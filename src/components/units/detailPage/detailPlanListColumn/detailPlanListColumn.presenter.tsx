@@ -32,7 +32,7 @@ export default function DetailPlanListColumnHTML(props: IDetailPlanListColumnHTM
                                 />
                             )}
                             <S.AddCoulumnIcon
-                                src="/detailPage/addcolumnd.png"
+                                src="/image/addcolumnd.png"
                                 onClick={onToggleModal}
                             ></S.AddCoulumnIcon>
                         </S.BasicRow>
