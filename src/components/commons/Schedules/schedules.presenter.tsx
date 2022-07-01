@@ -8,6 +8,7 @@ import { ProjectParticipant } from "../../../commons/types/generated/types";
 
 export default function SchedulesUI(props: any) {
     const fileRef = useRef<HTMLInputElement>(null);
+
     const onClickUpload = () => {
         fileRef.current?.click();
     };

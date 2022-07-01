@@ -36,6 +36,7 @@ const FETCH_LOGIN_USER = gql`
 
 export default function PaymentModal(props: any) {
     const router = useRouter();
+
     const [isOpen, setIsOpen] = useState(false);
     const onToggleModal = () => {
         setIsOpen((prev) => !prev);
