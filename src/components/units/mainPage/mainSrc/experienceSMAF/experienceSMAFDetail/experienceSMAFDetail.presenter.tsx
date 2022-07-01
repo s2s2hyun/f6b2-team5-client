@@ -13,6 +13,7 @@ export default function ExperienceSMAFDetailHTML(props: ExperienceSMAFDetailHTML
                         {props.categoryName}
                         <S.AddCoulumnIcon
                             onClick={props.AddPalnCard}
+                            // 이미지
                             src="/image/addcolumnd.png"
                         ></S.AddCoulumnIcon>
                     </S.AddcolumnBtn>
